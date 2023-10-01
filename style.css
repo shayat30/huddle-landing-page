@@ -54,7 +54,7 @@ h5.last-content {
 /* ........................................img-mockups............................................... */
 
 .img-section {
-    padding: 15px 0px;
+    padding: 30px 0px;
 }
 
 img.img-mockup {
@@ -62,4 +62,119 @@ img.img-mockup {
     display: block;
 }
 
+/* ........................................body-content............................................... */
 
+.section-k {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+h2.k-heading {
+    font-size: 5rem;
+    padding: 5px 0px;
+}
+p.content {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.k-heading-2 {
+    font-size: 5rem;
+    padding: 5px 0px;
+}
+.k-content-2 {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+/* ........................................body-content............................................... */
+
+.grow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5eef3;
+    padding: 3rem 0rem;
+    margin: 2rem 0rem;
+}
+
+h2.grow-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+p.grow-content {
+    font-size: 1rem;
+    text-align: start;
+}
+img.grow-img {
+    width: 25%;
+}
+
+/* ........................................body-content............................................... */
+
+.flowing-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0px;
+}
+img.flowing-img {
+    width: 25rem;
+}
+h2.flowing-heading {
+    font-size: 2rem;
+    line-height: 40px;
+}
+p.flowing-content {
+    font-size: 1rem;
+    line-height: 22px;
+}
+
+
+/* ........................................body-content............................................... */
+
+
+
+.user-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5eef3;
+    padding: 2rem 0rem;
+    margin: 2rem 0rem;
+}
+img.user-img {
+    width: 30rem;
+}
+h2.user-heading{
+    font-size: 2rem;
+    line-height: 50px;
+}
+h2.build {
+    font-size: 3rem;
+    text-align: center;
+    /* line-height: 95px; */
+    padding: 20px 0px;
+}
+    
+p.build-content {
+    border: 2px solid hotpink;
+    width: 300px;
+    height: 50px;
+    background: hotpink;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    padding: 13px 0px;
+    margin: auto;
+}
+/* ........................................body-content............................................... */
+.footer{
+    background-image: url("img/bg-footer-top-desktop.svg");
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    width: 100%;
+}
