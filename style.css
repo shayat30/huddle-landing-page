@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+}
+img.logo {
+    width: 150px;
+}
+p.logo-content {
+    border: 2px solid hotpink;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 14px;
+    padding-top: 3px;
+    color: hotpink;
+}
+
+/* ........................................body-content............................................... */
+
+.body-content {
+    padding: 30px 0px;
+}
+
+h2.head-content {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+p.middle-content {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 20px 0px;
+}
+h5.last-content {
+    border: 2px solid hotpink;
+    width: 16%;
+    height: 40px;
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+/* ........................................img-mockups............................................... */
+
+.img-section {
+    padding: 15px 0px;
+}
+
+img.img-mockup {
+    margin: auto;
+    display: block;
+}
+
+
