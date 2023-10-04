@@ -2,23 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 3rem 3rem;
+    padding: 3rem 4rem;
 }
 img.logo {
-    width: 150px;
+    width: 100px;
 }
 p.logo-content {
     border: 2px solid hotpink;
     width: 100px;
     height: 30px;
-    text-align: center;
     border-radius: 14px;
-    padding-top: 3px;
     color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ........................................body-content............................................... */
@@ -41,7 +43,7 @@ p.middle-content {
 }
 h5.last-content {
     border: 2px solid hotpink;
-    width: 16%;
+    width: 300px;
     height: 40px;
     background-color: hotpink;
     color: white;
@@ -55,11 +57,12 @@ h5.last-content {
 
 .img-section {
     padding: 30px 0px;
+    display: flex;
+    justify-content: center;
 }
-
 img.img-mockup {
-    margin: auto;
-    display: block;
+    width: 70%;
+    height: auto;
 }
 
 /* ........................................body-content............................................... */
@@ -110,7 +113,7 @@ p.grow-content {
     text-align: start;
 }
 img.grow-img {
-    width: 25%;
+    width: 400px;
 }
 
 /* ........................................body-content............................................... */
@@ -122,7 +125,7 @@ img.grow-img {
     margin: 4rem 0px;
 }
 img.flowing-img {
-    width: 25rem;
+    width: 400px;
 }
 h2.flowing-heading {
     font-size: 2rem;
@@ -147,11 +150,17 @@ p.flowing-content {
     margin: 2rem 0rem;
 }
 img.user-img {
-    width: 30rem;
+    width: 400px;
 }
 h2.user-heading{
     font-size: 2rem;
     line-height: 50px;
+}
+
+/* ........................................body-content............................................... */
+
+.build-section {
+    margin: 6rem 0rem;
 }
 h2.build {
     font-size: 3rem;
@@ -166,15 +175,60 @@ p.build-content {
     height: 50px;
     background: hotpink;
     border-radius: 25px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 13px 0px;
     margin: auto;
 }
 /* ........................................body-content............................................... */
-.footer{
-    background-image: url("img/bg-footer-top-desktop.svg");
-    background-repeat: no-repeat,repeat;
-    background-size: cover;
-    width: 100%;
+.footer {
+    /* background-image: url("img/bg-footer-top-mobile.svg");
+    background-size: cover; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem 0rem;
 }
+/* .one-1 {
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+}
+.two-2 {
+    border: 2px solid white;
+    width: 129px;
+    height: 40px;
+    border-radius: 6px;
+    background: hotpink;
+    color: white;
+    text-align: center;
+    padding: 7px 0px;
+} */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8c8787;
+    margin: 1rem 0rem;
+    padding: 0px 0px;
+}
+img.footer-logo {
+    width: 40vh;
+    height: auto;
+    padding: 20px 0px;
+    color: white;
+}
+p.footer-one {
+    color: white;
+    padding: 4px 0px;
+}
+.icon-two {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+

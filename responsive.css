@@ -1,0 +1,113 @@
+@media (max-width:280px) {
+    img.img-mockup {
+        width: 200px;
+    }
+    .header{
+        padding: 3rem 1rem;
+    }
+
+    .grow {
+        display: block;
+        text-align: center;
+    }
+
+    img.grow-img {
+        width: 200px;
+    }
+
+    .section-k {
+        display: block;
+        text-align: center;
+    }
+
+    .flowing-section {
+        display: block;
+        text-align: center;
+    }
+
+    img.flowing-img {
+        width: 200px;
+    }
+
+    .user-section {
+        display: block;
+        text-align: center;
+    }
+
+    img.user-img {
+        width: 200px;
+    }
+
+    p.build-content {
+        width: 200px;
+    }
+
+    .footer {
+        display: block;
+
+    }
+
+    h5.last-content {
+        width: 200px;
+    }
+    p.grow-content {
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    p.user-content {
+        line-height: 28px;
+}
+.k-two {
+    padding: 20px 0px 0px 0px;
+}
+}
+
+/* ...................................tablet............................... */
+
+@media (min-width: 281px) and (max-width: 769px) {
+    .grow {
+        display: block;
+        text-align: center;
+    }
+
+    .section-k {
+        display: block;
+        text-align: center;
+    }
+    .flowing-section {
+        display: block;
+        text-align: center;
+    }
+    .user-section {
+        display: block;
+        text-align: center;
+    }
+    p.user-content {
+            line-height: 28px;
+    }
+    .footer {
+        display: block;
+    }
+    img.grow-img {
+        width: 300px;
+    }
+    img.flowing-img {
+        width: 300px;
+    }
+    img.user-img {
+        width: 300px;
+    }
+    p.grow-content {
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .k-two {
+        padding: 20px 0px 0px 0px;
+    }
+    .header{
+        padding: 3rem 1rem;
+    }
+    
+}
