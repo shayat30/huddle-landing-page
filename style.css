@@ -183,52 +183,62 @@ p.build-content {
 }
 /* ........................................body-content............................................... */
 .footer {
-    /* background-image: url("img/bg-footer-top-mobile.svg");
-    background-size: cover; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem 0rem;
-}
-/* .one-1 {
-    border: 2px solid black;
-    width: 200px;
-    height: 40px;
-    border-radius: 6px;
-}
-.two-2 {
-    border: 2px solid white;
-    width: 129px;
-    height: 40px;
-    border-radius: 6px;
-    background: hotpink;
-    color: white;
-    text-align: center;
-    padding: 7px 0px;
-} */
-.footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #8c8787;
+    background-color: black;
     margin: 1rem 0rem;
-    padding: 0px 0px;
-}
-img.footer-logo {
-    width: 40vh;
-    height: auto;
-    padding: 20px 0px;
-    color: white;
+    padding: 50px 0px;
 }
 p.footer-one {
     color: white;
-    padding: 4px 0px;
+    padding: 8px 0px;
+}
+h2.footer-one-content {
+    color: white;
 }
 .icon-two {
     color: white;
     font-size: 30px;
+    padding: 4px 0px;
 }
-
+::before {
+    color: white;
+}
+.fa-regular, .far {
+    font-weight: 400;
+    color: lightgray;
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: lightgray;
+}
+h2.footer-two-content {
+    color: white;
+    font-size: 32px;
+}
+p.footer-content {
+    color: white;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+input.form-01 {
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+button.btn-1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: hotpink;
+    color: white;
+}
+.form {
+    margin: 5px 0px;
+}
 
 
 
